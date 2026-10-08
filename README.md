@@ -11,7 +11,10 @@ Claude Code 세션이 길어지면 /clear, 새 프롬프트, 핸드오프를 권
 알림은 입력창 위 띠, 상태 줄, `/coach` 명령으로 보입니다.
 
 ## 설치
-1. 이 `session-coach` 폴더를 `~/.claude/mods/session-coach` 에 둡니다.
+1. 설치 폴더로 받습니다.
+   ```bash
+   git clone https://github.com/magic3ightball/session-coach ~/.claude/mods/session-coach
+   ```
 2. `~/.claude/settings.json` 의 `env` 에 아래를 추가합니다 (경로는 본인 홈으로).
    ```json
    "env": { "CLAUDE_CODE_PLUGIN_DIRS": "/Users/<내아이디>/.claude/mods/session-coach" }
