@@ -1,0 +1,1 @@
+{ "name": "session-coach", "version": "0.1.0", "description": "Watches the session and suggests /clear, a fresh prompt, or a handoff per the Claude Code best-practices guide", "types": "./types/index.d.ts" }
